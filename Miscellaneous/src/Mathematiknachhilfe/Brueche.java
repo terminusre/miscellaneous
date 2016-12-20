@@ -12,10 +12,13 @@ public class Brueche {
 		Rational summand0;
 		Rational summand1;
 		Rational result;
-		for (int i = 0; i < 55; i++)
+		Rational[] leastCommonMultiple;
+		for (int i = 0; i < 55; i++) {
+			leastCommonMultiple = new Rational[random.nextInt(5) + 3];
 
 			System.out.println((random.nextInt(32) + 1) + "/" + (random.nextInt(32) + 1) + " + "
 					+ (random.nextInt(32) + 1) + "/" + (random.nextInt(32) + 1) + " = ");
+		}
 	}
 
 }
